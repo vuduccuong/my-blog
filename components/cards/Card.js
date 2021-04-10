@@ -16,7 +16,7 @@ const Card = (props) => {
     <article className="list__post-item">
       <div className="post-item__top">
         <div className="author__avatar">
-          <img src={image} />
+          <img src={image} width="90px" height="90px"/>
         </div>
         <div className="author__info">
           <h3>{name}</h3>
