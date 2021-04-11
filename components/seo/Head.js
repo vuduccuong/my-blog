@@ -35,7 +35,7 @@ const HeadSEO = () => {
       <meta property="og:url" content="cuongvd.ml" />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="vi_VN" />
-      <meta property="fb:id" content="12342222" />
+      <meta property="fb:app_id" content="12342222" />
     </Head>
   );
 };
