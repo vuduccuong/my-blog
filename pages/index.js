@@ -1,5 +1,6 @@
+
 import ComingSoon from "../components/coming-soon/coming-soon";
-import HeadSEO from '../components/seo/Head';
+import HeadSEO from "../components/seo/Head";
 
 const HomePage = () => {
   return (
@@ -9,8 +10,7 @@ const HomePage = () => {
         <ComingSoon />
       </main>
     </div>
-  )
+  );
 };
 
 export default HomePage;
-

@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build-css": "cross-env NODE_ENV=production tailwindcss build ./styles/tailwind.css -o ./styles/tailwindbuild.min.css",
+    "dev-css": "cross-env NODE_ENV=development tailwindcss build ./styles/tailwind.css -o ./styles/tailwindbuild.min.css",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "export": "next export"
   },
   "dependencies": {
+    "concurrently": "^6.0.1",
+    "cross-env": "^7.0.3",
     "next": "10.1.3",
     "react": "17.0.2",
     "react-dom": "17.0.2"
