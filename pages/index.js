@@ -1,6 +1,16 @@
-import Layout from "../components/layout/Layout";
+import ComingSoon from "../components/coming-soon/coming-soon";
+import HeadSEO from '../components/seo/Head';
+
 const HomePage = () => {
-  return <Layout />;
+  return (
+    <div className="my-app">
+      <HeadSEO />
+      <main>
+        <ComingSoon />
+      </main>
+    </div>
+  )
 };
 
 export default HomePage;
+
