@@ -24,7 +24,7 @@ const HeadSEO = () => {
       <meta property="og:image:height" content="600"></meta>
       <meta
         property="og:image"
-        content="./images/coming-soon-600x600.webp"
+        content="https://cuongvd.ml/images/coming-soon-600x600.webp"
       ></meta>
 
       <meta
