@@ -1,0 +1,1 @@
+const tailwindCss = require("tailwindcss");
